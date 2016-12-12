@@ -32,6 +32,7 @@ app.connection.connect(function (err) {
         console.log('Error connecting to Db');
         return;
     }
+    console.log('Connection to database done succesfully');
 });
 app.connection.query('USE sql6148985');
 var routes = require("./routes/routes.js")(app);
@@ -48,6 +49,6 @@ app.get('/', function (req, res) {
     });
 });
 
-var server = app.listen(3300, function() {
+var server = app.listen(process.env.PORT || 5000, function() {
     console.log("Listening on port %s...", server.address().port);
 });
