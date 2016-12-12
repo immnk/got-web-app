@@ -37,7 +37,7 @@ var GOT = {
         }
     },
     BACK_END: {
-        RootURL: "http://localhost:3300/",
+        RootURL: "https://got-web-app.herokuapp.com/",
         MethodName: {
             getBattles: "getBattles"
         },
