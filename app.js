@@ -22,7 +22,7 @@ var connection = mysql.createConnection({
     host: 'sql6.freemysqlhosting.net',
     user: config.DATABASE.USERNAME,
     password: config.DATABASE.PASSWORD,
-    database: 'got',
+    database: 'sql6148985',
     multipleStatements: true
 });
 
