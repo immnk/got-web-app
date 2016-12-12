@@ -1,0 +1,29 @@
+<div class="modal-header">
+    <h3 class="modal-title" id="modal-title">{{ vm.battle.name }}</h3>
+</div>
+<div class="modal-body" id="modal-body">
+    <div>
+        Attacker: {{ vm.battle.attacker_king }}
+    </div>
+    <div>
+        Commander: {{ vm.battle.attacker_commander }}
+    </div>
+    <div>
+        Defender: {{ vm.battle.defender_king }}
+    </div>
+    <div>
+        Commander: {{ vm.battle.defender_commander }}
+    </div>
+    <div>
+        Battle Type: {{ vm.battle.battle_type }}
+    </div>
+    <div>
+        Location: {{ vm.battle.location }}, {{ vm.battle.region }}
+    </div>
+    <div>
+        Notes: {{ vm.battle.note }}
+    </div>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="vm.ok()">OK</button>
+</div>

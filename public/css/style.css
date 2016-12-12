@@ -1,0 +1,21 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    background: #FFF;
+    padding: 10px;
+    border-top: 1px solid #EEE;
+}
+footer p {
+    margin: 0;
+}
+table {
+    margin-bottom: 50px !important;
+}

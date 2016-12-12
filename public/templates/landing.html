@@ -1,0 +1,17 @@
+<!-- Start of Web Content-->
+<header>
+    Battles in Game of Thrones
+</header>
+<div class="container">
+    <table class="table table-bordered">
+        <th>
+            <td>Battle name</td>
+            <td>Year</td>
+        </th>
+        <tr ng-repeat="battle in vm.battles" ng-click="vm.onTap(battle)">
+            <td>{{ battle.battle_number }}</td>
+            <td>{{ battle.name }}</td>
+            <td>{{ battle.year }}</td>
+        </tr>
+    </table>
+</div>
